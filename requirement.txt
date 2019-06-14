@@ -1,0 +1,10 @@
+ tensorflow-gpu==1.13.1
+ pandas==0.24.1 
+ numpy==1.15.4
+ Pillow==5.4.1
+ scipy==1.2.1
+ scikit-learn==0.20.2
+ albumentations==0.2.0
+ pathlib==1.0.1
+ opencv-python==4.0.0.21
+ matplotlib==3.0.2

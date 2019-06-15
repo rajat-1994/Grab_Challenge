@@ -20,13 +20,13 @@ def plot_batch_img(path,data,dic,batch=1):
     for i,ax in enumerate(axes.flat): display_img(ims[i],dic=dic, ax=ax,label=label[i])
     plt.tight_layout(pad=0.1)
 
-def display_img(im,dic,prediction=None,figsize=None, ax=None, alpha=None,label=0,pred=False):
+def display_img(im,dic,prediction=None,figsize=None, ax=None, alpha=None,label=0,ohe=False):
     if not ax: fig,ax = plt.subplots(figsize=figsize)
     ax.imshow(im, alpha=alpha)
-    if pred:
-        ax.text(-2,-2, 'pred: %.20s (%.2f)' % (dic[np.argmax(prediction)],np.max(prediction)), 
+    if ohe:
+        ax.text(-2,-2, '%.20s (%.2f)' % (dic[np.argmax(prediction)],np.max(prediction)), 
                                                         color='w', backgroundcolor='k', alpha=0.8)
-    ax.text(-2,-2, '%.25s...' % dic[label], color='k', backgroundcolor='w', alpha=0.8)
+    else : ax.text(-2,-2, '%.25s...' % dic[label], color='k', backgroundcolor='w', alpha=0.8)
     ax.set_axis_off()
     return ax
 

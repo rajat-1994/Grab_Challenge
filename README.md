@@ -29,4 +29,4 @@
       ```
 5. Download the pretrained weights from [here](https://drive.google.com/file/d/1qwT_rcfijlFv5GxlIejENFh6qOzsdsY8/view?usp=sharing)
 
-6.Run `Grab.ipynb` to reproduce model and to get the prediction on test set `submission.csv`
+6. Run `Grab.ipynb` to reproduce model and to get the prediction on test set `submission.csv`

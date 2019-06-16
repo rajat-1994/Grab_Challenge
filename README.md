@@ -6,13 +6,13 @@
 
 1. To clone this repository run below code in your terminal
 
-<t>```git clone https://github.com/rajat-1994/Grab_Challenge.git```</t>
+      ```git clone https://github.com/rajat-1994/Grab_Challenge.git```
 
 2. Install all the required libraries by running
 
-<t>```pip install -r requirement.txt```</t>
+      ```pip install -r requirement.txt```
 
 3. Download the dataset from [here](https://ai.stanford.edu/~jkrause/cars/car_dataset.html)
 
-<t>```wget http://imagenet.stanford.edu/internal/car196/cars_annos.mat
-   wget http://imagenet.stanford.edu/internal/car196/car_ims.tgz```</t>
+      ```wget http://imagenet.stanford.edu/internal/car196/cars_annos.mat```
+      ```wget http://imagenet.stanford.edu/internal/car196/car_ims.tgz```

@@ -5,8 +5,7 @@
 ## Getting Started
 
 1. To clone this repository run below code in your terminal
-
-'''git clone https://github.com/rajat-1994/Grab_Challenge.git'''
+```git clone https://github.com/rajat-1994/Grab_Challenge.git```
 
 2. Install all the required libraries by running
-'''pip install -r requirement.txt'''
+```pip install -r requirement.txt```
